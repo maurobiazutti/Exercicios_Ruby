@@ -6,6 +6,7 @@ puts palindromo?('ovo')
 puts palindromo?('Ovo')
 puts palindromo?('foo')
 
+#---------------------------------------------------------
 
 # Desenvolvendo a Logica
 def palindromo1?(palavra)
