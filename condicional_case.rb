@@ -4,9 +4,9 @@
 mes_do_aniversario = 2
 case mes_do_aniversario
 when 1..6
-  puts "Você nasceu do primeiro semestre"
+  puts "Você nasceu no primeiro semestre"
 when 7..12
-  puts "Você nasceu do primeiro semestre"
+  puts "Você nasceu no segundo semestre"
 else
   puts "Não existe esse mês"
 end

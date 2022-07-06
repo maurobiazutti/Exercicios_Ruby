@@ -1,11 +1,11 @@
-#O if verifica se uma condição é verdadeira e apartir dessa verificação executa um trecho de código,
+#O if verifica se uma condição é verdadeira e executa um trecho de código,
 # segue o código abaixo utilizando também a igualdade:
 value = 30
 if value == 30
   puts "Isso é verdade!"
 end
 #--------------------------------------------
-# O else seria um complemento do If, caso a verificação do if seja falsa o
+# else caso a verificação do if seja falsa o
 # trecho de código executado é o else, segue o exemplo abaixo:
 value = 30
 if value < 10
