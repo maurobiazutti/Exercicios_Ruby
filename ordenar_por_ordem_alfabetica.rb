@@ -1,5 +1,5 @@
 #Objeito ordenar por ordem alfabetica
-nomes = ["Mauro", "wallison", "Wallison", "Lucas", "Gerando", "Iris", "Amauri", "Angela", "Edio"]
+nomes = ["Mauro", "wallison", "Wallison", "Lucas", "Gerando", "Iris", "Amauri", "Angela", "Edio", "Iris"]
 # puts nomes.sort
 # ------------------------------------------------------
 # Para Saber se Esta dentro do arr
@@ -20,19 +20,15 @@ nomes = ["Mauro", "wallison", "Wallison", "Lucas", "Gerando", "Iris", "Amauri", 
 puts "Qual nome vc procura?"
 busca = gets.chomp.to_s
 
-# nomes.each_with_index do |b, index|
-#   if b == busca
-#     puts "#{b} esta no indice #{index}"
-#   else
-#     puts "Busca não encontrada"
-#   end
-# end
-
-
 nomes.each_with_index do |b, index|
-  unless busca != b
+  if b == busca
     puts "#{b} esta no indice #{index}"
-  else
-    puts "Busca não encontrada"
+  end
+end
+
+puts "Unless"
+nomes.each_with_index do |b, index|
+  unless busca == b
+    puts "#{b} esta no indice #{index}"
   end
 end
