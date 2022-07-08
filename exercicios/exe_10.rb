@@ -25,5 +25,5 @@ def palindromo1?(palavra)
 end
 
 puts palindromo1?('ovo')
-# puts palindromo1?('Ovo')
-# puts palindromo1?('foo')
+puts palindromo1?('Ovo')
+puts palindromo1?('foo')
