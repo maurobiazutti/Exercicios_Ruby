@@ -3,17 +3,17 @@ nomes = ["Mauro", "wallison", "Wallison", "Lucas", "Gerando", "Iris", "Amauri", 
 # puts nomes.sort
 # ------------------------------------------------------
 # Para Saber se Esta dentro do arr
-# puts "Qual nome vc procura?"
-# busca = gets.chomp.to_s
-# def busca_nomes(nom, bus)
-# nom.each { |i|
-#   if i == bus
-#     puts "SIM"
-#   else
-#     puts "Não"
-#   end
-# }
-# end
+puts "Qual nome vc procura?"
+busca = gets.chomp.to_s
+def busca_nomes(nom, bus)
+nom.each { |i|
+  if i == bus
+    puts "SIM"
+  else
+    puts "Não"
+  end
+}
+end
 # busca_nomes(nomes, busca)
 # ------------------------------------------------------
 #Para Saber se tem e qual o indice
@@ -28,7 +28,8 @@ end
 
 puts "Unless"
 nomes.each_with_index do |b, index|
-  unless busca == b
-    puts "#{b} esta no indice #{index}"
-  end
+    unless busca == b
+      puts "#{b} esta no indice #{index}"
+    end
 end
+
