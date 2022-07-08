@@ -9,6 +9,3 @@ nf = gets.chomp.to_f
 centro_a_centro = Math.sin(180 * 0.017453 / nf)  * md
 puts centro_a_centro.ceil(2)
 # puts "A distancia entre os #{nf} furos será de #{centro_a_centro}mm"
-
-# puts Math.sin (180)
-# 0.1745
