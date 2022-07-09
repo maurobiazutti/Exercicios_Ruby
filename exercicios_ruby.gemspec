@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["maurobiazutti"]
   spec.email = ["mauro_biazutti@hotmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
+  spec.summary = "Write a short summary, because RubyGems requires one."
   spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/maurobiazutti/Exercicios_Ruby"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
